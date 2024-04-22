@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    scroll-behavior: smooth;
+        
+}
+.navbar{
+    background-color: rgb(69, 204, 139);
+    width: 100%;
+    height: 70px;
+    color: white;
+    position: fixed;    
+}
+.logo{
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+}
+.menu{
+    margin-left:139vh;
+    padding-top: 27px;
+}
+.menu ul li{
+    list-style:  none;
+    display: inline-block;
+    margin-right: 50px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+}
+.menu :hover {
+    color: rgb(19, 26, 23);
+    font-style: italic;
+}
+.banner{
+    background-color: rgb(69, 204, 139);
+    height: 800px;
+    text-align: center;
+    padding-top: 80px;
+    
+}
+.banner img{
+    border-radius: 100px;
+    height: 150px;
+    border: 6px;
+    margin-top: 100px;
+    border: 15px groove rgb(255, 255, 255);
+}
+.banner h1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.banner button{
+    margin-top: 60px;
+    padding: 10px;
+    width: 400px;
+    border-radius: 50px;
+    border: none;
+}
+.banner button:hover{
+    background-color: grb(69, 204, 139);
+    border: 1px solid white;
+    color:white;
+}
+h1{
+    color: rgb(0, 0, 0);
+}
+h2{
+    
+    text-transform: uppercase;
+   
+}
+.portofolio h2{
+    color: rgb(255, 255, 255);
+    font-size: 2em;
+}
+span{
+    color: rgb(255, 255, 255);
+}
+p span:before{
+    content: '';
+    animation: gerak infinite 5s ease;
+    transform: translateY(-50%);
+    color:  rgb(244, 244, 244);
+    
+}
+@keyframes gerak {
+    0% {
+        content: 'PERKENALKAN';
+       
+    }
+    50%{
+        content: 'FIKRI HIDAYAT';
+        
+    }
+    100% {
+        content: 'TEKNIK INFORMATIKA';
+        font-size: 20px;
+    }   
+}
+.box-softskill{
+    text-align: center;
+    color: #ffffff;
+    margin-top: 30px;
+    align-content: center;
+    padding-bottom: 5% ;
+ }
+ .box-kiri, .box-tengah, .box-kanan {
+    width: 300px;
+    height: 380px;
+    background-color: rgb(69, 204, 139);
+    text-align: center;
+    padding: 100px 30px;
+    margin: 120px 40px 20px 55px;
+    border-radius: 10px;
+    float: left;
+    padding-left: 5%;
+    box-shadow: 0 3px 35px rgb(69, 204, 139);
+    transition-delay: 200ms;
+}
+.box-kiri img{
+    border-radius: 100px;
+    height: 150px;
+    border: 6px solid white; 
+    margin-top: 15px;
+}
+.box-kanan img{
+    border-radius: 100px;
+    height: 150px;
+    border: 6px solid white; 
+    margin-top: 15px;
+}
+.box-tengah img{
+    border-radius: 100px;
+    height: 150px;
+    border: 6px solid white; 
+    margin-top: 15px;
+}
+.map{
+    padding-top: 4.6%;
+}
+.contact .info{
+   display: flex;
+   flex-wrap: wrap;
+   margin: 25px 10px 20px 265px;
+   width: 60%;
+   height: 20%;
+   padding: 40px 10px;
+   border-radius: 10px;
+   box-shadow: 10px 10px 20px 10px rgb(69, 204, 139); 
+   background: rgb(255, 255, 255);  
+   
+}
+.contact .info i{
+  font-size: 20px;
+  color:rgb(69, 204, 139);
+  float: left;
+  width: 44px;
+  height: 44px;
+  border: 1px solid rgb(69, 204, 139);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  transition: all 0.3s;
+  margin-left: 46px;
+}
+.contact .info:hover i{
+    background: rgb(69, 204, 139);
+    color: #fff;
+}
+.info h4{
+    padding: 0px 0px 0px 80px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    color: #000000;
+}
+.info p{
+  padding: 0 0 0 80px;
+  margin-bottom: 0;
+  margin-left: 20px;
+  font-size: 14px;
+  color: #444444;
+}
+#footer {
+    background-color: rgb(69, 204, 139);
+    color: #fff;
+    margin-top: 15%;
+    padding: 50px 0;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .contact-us,
+  .quick-links,
+  .follow-us {
+    flex: 1;
+    padding-left: 10%;
+  }
+  
+  .contact-us h2,
+  .quick-links h2,
+  .follow-us h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    
+  }
+  
+  .contact-us p,
+  .quick-links ul,
+  .follow-us p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .quick-links ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .quick-links ul li a {
+    margin-bottom: 5px;
+    text-decoration: none;
+    color:  white;
+    line-height: 35px;
+  }
+    .follow-us .social-media a {
+    color: #fff;
+    margin-right: 10px;
+  }
+  
+  .follow-us .social-media a:hover {
+    color: #ccc;
+  }
+  
+  .follow-us p {
+    font-size: 14px;
+    margin-top: 20px;
+  }
+  .copyright {
+    text-align: center;
+    padding: 4px 0;
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+}
